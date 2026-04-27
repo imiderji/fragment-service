@@ -1,2 +1,7 @@
 def main() -> None:
-    print("Hello from fragment-service!")
+    from fragment_service.main import main as run
+
+    run()
+
+
+__all__ = ["main"]
